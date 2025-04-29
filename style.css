@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(254, 240, 222);
-    display: flex;
+    background-color: rgb(254, 240, 222);   display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;justify-content: space-evenly;
+  
 }
 
 .container{
@@ -12,6 +12,7 @@ body{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;justify-content: space-evenly;
     margin: 80px 0px;
 }
    
@@ -104,6 +105,7 @@ ol{
 
 .container4 ol{
     color: dimgray;
+    
 }
 
 .container4 li span{
@@ -139,11 +141,18 @@ font-weight: bold;
 
 
 @media(max-width:700px) {
+    body{
+        background-color: rgb(254, 240, 222);    
+        padding: 2px;
+        margin: 6px;
+     box-sizing: border-box;
+      
+    }
     .container2{
-        margin:  11px;
+        margin:  p11x;
         }
     .container2 p{
-        padding-left: 12px;
+        padding : 12px;
         color: dimgray;
         font-family: Arial, Helvetica, sans-serif;
          line-height: 22px;
@@ -155,16 +164,17 @@ font-weight: bold;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
-        margin: 11px 0px;
+        margin:   5px;
     }
+    
     img{
-        margin: 10px;
-        width: 200px;
+        margin: 1px;
+        width: 150px;
         border-radius: 15px;
     }
     .container3{
         background-color: rgb(255, 242, 242);
-        margin: 0px 25px;
+        margin:  12px;
         border-radius: 15px;
     
     }
@@ -172,7 +182,7 @@ font-weight: bold;
         display: flex;
         justify-content: space-between;
         width: 150px;
-        margin: 15px 30px;
+        margin: 15px;
     }
 
 }
