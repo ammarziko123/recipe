@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(254, 240, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 48%;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px;
+}
+   
+.image{
+    text-align: center;
+    margin-top: 15px;
+    }
+
+.container2{
+    margin: 0px 25px;
+    }
+
+
+
+img{
+    margin: 25px;
+    width: 650px;
+    border-radius: 15px;
+}
+    
+
+ h1{
+    color: black;
+    margin: 0px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container2 p{
+   padding-left: 25px;
+   color: dimgray;
+   font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+} 
+
+.container3{
+    background-color: rgb(255, 242, 242);
+    margin: 0px 25px;
+    border-radius: 15px;
+
+}
+.subcontainer{
+    font-family: sans-serif;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+.subcontainer h2{
+color: rgb(117, 55, 86);
+margin-bottom: 0px;
+font-size: 25px;
+  
+
+}
+.subcontainer ul{
+    color: dimgray;
+    line-height: 30px;
+}
+.subcontainer li span{
+    font-weight: bold;
+}
+
+
+
+.container4{
+    margin: 0px 25px;
+    border-radius: 15px;
+
+}
+.subcontainer{
+    font-family: sans-serif;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+.container4 h3{
+    font-size: 30px;
+    font-weight: bold;
+color: saddlebrown;
+margin-bottom: 0px
+}
+.container4 ul{
+    color: dimgray;
+    line-height: 30px;
+}
+
+
+ol{
+
+}
+
+.container4 ol{
+    color: dimgray;
+}
+
+.container4 li span{
+    font-weight: bold;
+}
+
+.pp{
+    margin-left: -25px;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 15px 60px;
+}
+.container5 .calories{
+    color: dimgray;
+}
+.container5 .value{
+color: saddlebrown;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+@media(max-width:700px) {
+    .container{
+        background-color: white;
+        width: 60%;
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0px;
+    }
+    img{
+        margin: 10px;
+        width: 280px;
+        border-radius: 15px;
+    }
+    .container3{
+        background-color: rgb(255, 242, 242);
+        margin: 0px 25px;
+        border-radius: 15px;
+    
+    }
+    .container5{
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        margin: 15px 30px;
+    }
+
+}
+
+
+ 
